@@ -1,3 +1,3 @@
 #!/bin/sh -l
 cd /bin/staticsites/
-./StaticSitesClient $INPUT_ACTION
+DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 ./StaticSitesClient $INPUT_ACTION
